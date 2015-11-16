@@ -1,0 +1,36 @@
+html, body
+{
+  background-color: black;
+  height: 98%;
+  width: 98%;
+  font-family: times;
+
+}
+
+h3 {color:white;
+  height: 8%;
+  font-size: 32px;
+  user-select: none;
+  text-align: center;
+}
+
+p {color:white;
+  height: 8%;
+  font-size: 16px;
+  user-select: none;
+  text-align: center;
+}
+
+#mySVGCanvas {
+  border: 10px;
+  border-color: white;
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  background-color: white;
+  background-image: url('http://emmastrend.com/wp-content/uploads/2015/09/Cartoon-Halloween-Wallpaper-05.jpg');
+  background-size: 900px 700px;
+  background-repeat: no-repeat;
+}
+
+/*body, a:hover {cursor: url(http://cur.cursors-4u.net/nature/nat-8/nat733.cur), progress !important;} /* End http://www.cursors-4u.com */
