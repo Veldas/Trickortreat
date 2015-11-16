@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <!--  Include the raphael library from the jslibs directory  -->
+        <script type="text/javascript" src="jslibs/raphael.js"></script>
+        <!--  Use the require.js module loader, and tell it where our main JavaScript file is  -->
+        <script type="text/javascript" data-main="appscripts/main.js" src="jslibs/require.js"> </script>
+        <title>flexbox layout</title>
+
+ </head>
+
+    <body>
+         
+         <h3> <center> TRICK OR TREAT  </center> </h3> 
+
+         <p>
+         <!-- Create a radio button for each difficulty level--> 
+         <input id="Easy" type="radio" name="difficulty" value="easy"> Easy
+         <input id="Normal" type="radio" name="difficulty" value="normal"> Normal
+         <input id="Hard" type="radio" name="difficulty" value="hard"> Hard     
+         </p>
+         
+         <div id="mySVGCanvas" > </div>
+            
+
+    </body>
+
+
+</html>
